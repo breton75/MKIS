@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="connection_state">
+    <file>../../Common/Icons/16x16freeapplicationicons/ico/Database.ico</file>
+    <file>../../Common/Icons/Pack 5 - Web Illustrations/TV.ico</file>
+    <file>../../Common/Icons/png2ico/comments.ico</file>
+    <file>../../Common/Icons/silk-icons/icons/bullet_yellow.png</file>
+    <file>../../Common/Icons/silk-icons/icons/bullet_green.png</file>
+    <file>../../Common/Icons/silk-icons/icons/bullet_red.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>../../Common/Icons/16x16freeapplicationicons/ico/Lightning.ico</file>
+    <file>../../Common/Icons/16x16freeapplicationicons/ico/Abort.ico</file>
+    <file>../../Common/Icons/Pack 5 - Web Illustrations/Player Pause.ico</file>
+    <file>../../Common/Icons/Pack 5 - Web Illustrations/Player Play.ico</file>
+    <file>../../Common/Icons/Pack 5 - Web Illustrations/Player stop.ico</file>
+    <file>../../Common/Icons/16x16freeapplicationicons/bmp/16x16/Next.bmp</file>
+    <file>../../Common/Icons/google/Comments-send.ico</file>
+  </qresource>
+</RCC>

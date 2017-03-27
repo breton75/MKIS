@@ -1,0 +1,78 @@
+<RCC>
+  <qresource prefix="/main_32">
+    <file>icons/Gears.ico</file>
+    <file>../../Common/Icons/google/32/Key.ico</file>
+    <file>../../Common/Icons/google/32/Users.ico</file>
+    <file>../../Common/Icons/google/32/Document spreadsheet.ico</file>
+    <file>../../Common/Icons/google/32/massMeasure1.ico</file>
+    <file>../../Common/Icons/google/ar.ico</file>
+    <file>../../Common/Icons/google/Chart2.ico</file>
+    <file>../../Common/Icons/google/Comments2.ico</file>
+    <file>../../Common/Icons/google/Computer.ico</file>
+    <file>../../Common/Icons/google/cpu_32.ico</file>
+    <file>../../Common/Icons/google/Database.ico</file>
+    <file>../../Common/Icons/google/Document text.ico</file>
+    <file>../../Common/Icons/google/Hand.ico</file>
+    <file>../../Common/Icons/google/Mouse.ico</file>
+    <file>../../Common/Icons/google/Network.ico</file>
+    <file>../../Common/Icons/google/prog.ico</file>
+    <file>../../Common/Icons/google/wagon.ico</file>
+  </qresource>
+  <qresource prefix="/editors">
+    <file>icons/Close.ico</file>
+    <file>icons/Pen.ico</file>
+    <file>icons/cpu_add_16.ico</file>
+    <file>icons/Plus2.ico</file>
+  </qresource>
+  <qresource prefix="/tree32">
+    <file>icons/Gears.ico</file>
+    <file>icons/Add.ico</file>
+    <file>icons/Erase.ico</file>
+    <file>icons/Modify.ico</file>
+    <file>icons/Compile-Run.ico</file>
+    <file>icons/Refresh.bmp</file>
+    <file>icons/User_key.ico</file>
+    <file>icons/User.ico</file>
+    <file>icons/User_1.ico</file>
+    <file>icons/zone.ico</file>
+    <file>icons/zone_plans.ico</file>
+    <file>icons/Error.ico</file>
+    <file>icons/Plus2.ico</file>
+    <file>icons/_HID_icon_small3.gif</file>
+    <file>icons/bullet_blue.png</file>
+    <file>app.ico</file>
+    <file>icons/ar.ico</file>
+    <file>icons/Chart2.ico</file>
+    <file>icons/cpu_16.ico</file>
+    <file>icons/Star2.bmp</file>
+    <file>icons/struct.ico</file>
+    <file>icons/wagon.ico</file>
+    <file>icons/Eye.bmp</file>
+    <file>icons/rls.ico</file>
+    <file>icons/Shield_16.ico</file>
+    <file>icons/Users.ico</file>
+    <file>icons/Database.ico</file>
+    <file>icons/Document graph.ico</file>
+    <file>icons/videocam.ico</file>
+    <file>icons/Computer.ico</file>
+    <file>icons/Key_16.ico</file>
+    <file>icons/Warning.ico</file>
+    <file>icons/zone_1.ico</file>
+    <file>icons/layers_1.ico</file>
+    <file>icons/add_zone.ico</file>
+    <file>icons/delete_zone.ico</file>
+    <file>icons/edit_zone.ico</file>
+  </qresource>
+  <qresource prefix="/">
+    <file>icons/add_device.ico</file>
+    <file>icons/delete_device.ico</file>
+    <file>icons/node-tree.ico</file>
+    <file>icons/Zoom in.ico</file>
+    <file>icons/Zoom out.ico</file>
+  </qresource>
+  <qresource prefix="/alarms">
+    <file>icons/bullet_error.png</file>
+    <file>icons/exclamation.png</file>
+    <file>icons/bullet_red.png</file>
+  </qresource>
+</RCC>

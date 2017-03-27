@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>966</width>
+    <height>769</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QVBoxLayout" name="verticalLayout_4">
+    <item>
+     <widget class="QMdiArea" name="mdiArea">
+      <property name="palette">
+       <palette>
+        <active>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>0</red>
+            <green>0</green>
+            <blue>0</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </active>
+        <inactive>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </inactive>
+        <disabled>
+         <colorrole role="WindowText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="Text">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+         <colorrole role="ButtonText">
+          <brush brushstyle="SolidPattern">
+           <color alpha="255">
+            <red>120</red>
+            <green>120</green>
+            <blue>120</blue>
+           </color>
+          </brush>
+         </colorrole>
+        </disabled>
+       </palette>
+      </property>
+      <property name="acceptDrops">
+       <bool>true</bool>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Plain</enum>
+      </property>
+      <property name="sizeAdjustPolicy">
+       <enum>QAbstractScrollArea::AdjustIgnored</enum>
+      </property>
+      <property name="viewMode">
+       <enum>QMdiArea::TabbedView</enum>
+      </property>
+      <property name="tabsClosable">
+       <bool>true</bool>
+      </property>
+      <property name="tabsMovable">
+       <bool>true</bool>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::North</enum>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>966</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>Файл</string>
+    </property>
+    <addaction name="action"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>Система</string>
+    </property>
+    <addaction name="actionDevices"/>
+    <addaction name="actionVariables"/>
+    <addaction name="actionZones"/>
+    <addaction name="actionEmployeers"/>
+    <addaction name="actionPlans"/>
+    <addaction name="actionAccess_control"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionEmployeers"/>
+   <addaction name="actionPlans"/>
+   <addaction name="actionAccess_control"/>
+   <addaction name="separator"/>
+   <addaction name="actionAlarms"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <widget class="QDockWidget" name="dockWidget">
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>0</red>
+         <green>85</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>0</red>
+         <green>85</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>0</red>
+         <green>85</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>0</red>
+         <green>85</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="floating">
+    <bool>false</bool>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetFloatable|QDockWidget::DockWidgetMovable|QDockWidget::DockWidgetVerticalTitleBar</set>
+   </property>
+   <property name="windowTitle">
+    <string>Система</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>1</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <property name="spacing">
+      <number>2</number>
+     </property>
+     <property name="leftMargin">
+      <number>2</number>
+     </property>
+     <property name="topMargin">
+      <number>2</number>
+     </property>
+     <property name="rightMargin">
+      <number>2</number>
+     </property>
+     <property name="bottomMargin">
+      <number>2</number>
+     </property>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="alarmDockWidget">
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>255</green>
+         <blue>255</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="Base">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+      <colorrole role="Window">
+       <brush brushstyle="SolidPattern">
+        <color alpha="80">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="windowIcon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/Warning.ico</normaloff>:/tree32/icons/Warning.ico</iconset>
+   </property>
+   <property name="features">
+    <set>QDockWidget::DockWidgetVerticalTitleBar</set>
+   </property>
+   <property name="windowTitle">
+    <string>Тревоги о события</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="alarmDockWidgetContent">
+    <layout class="QVBoxLayout" name="verticalLayout_3"/>
+   </widget>
+  </widget>
+  <widget class="QDockWidget" name="dockWidget_7">
+   <property name="windowTitle">
+    <string>Лог</string>
+   </property>
+   <attribute name="dockWidgetArea">
+    <number>8</number>
+   </attribute>
+   <widget class="QWidget" name="dockWidgetContents_7">
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QTextEdit" name="textLog"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <action name="actionDevices">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/cpu_16.ico</normaloff>:/tree32/icons/cpu_16.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Устройства</string>
+   </property>
+   <property name="toolTip">
+    <string>Устройства</string>
+   </property>
+  </action>
+  <action name="actionVariables">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/struct.ico</normaloff>:/tree32/icons/struct.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Переменные</string>
+   </property>
+   <property name="toolTip">
+    <string>Переменные</string>
+   </property>
+  </action>
+  <action name="actionZones">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/Shield_16.ico</normaloff>:/tree32/icons/Shield_16.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Охранные зоны</string>
+   </property>
+   <property name="toolTip">
+    <string>Охранные зоны</string>
+   </property>
+  </action>
+  <action name="actionEmployeers">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/Users.ico</normaloff>:/tree32/icons/Users.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Сотрудники</string>
+   </property>
+   <property name="toolTip">
+    <string>Сотрудники</string>
+   </property>
+  </action>
+  <action name="actionPlans">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/ar.ico</normaloff>:/tree32/icons/ar.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Планы</string>
+   </property>
+   <property name="toolTip">
+    <string>Планы</string>
+   </property>
+  </action>
+  <action name="actionAccess_control">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/main_32/Common/Icons/google/32/Key.ico</normaloff>:/main_32/Common/Icons/google/32/Key.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Контроль доступа</string>
+   </property>
+   <property name="toolTip">
+    <string>Контроль доступа</string>
+   </property>
+  </action>
+  <action name="action">
+   <property name="text">
+    <string>Выход</string>
+   </property>
+  </action>
+  <action name="actionNewDevice">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/add_device.ico</normaloff>:/icons/add_device.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Добавить устройство</string>
+   </property>
+  </action>
+  <action name="actionEditDevice">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/editors/icons/Pen.ico</normaloff>:/editors/icons/Pen.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Изменить</string>
+   </property>
+  </action>
+  <action name="actionDeleteDevice">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/icons/delete_device.ico</normaloff>:/icons/delete_device.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Удалить</string>
+   </property>
+   <property name="toolTip">
+    <string>Удалить</string>
+   </property>
+  </action>
+  <action name="actionVideoView">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/Eye.bmp</normaloff>:/tree32/icons/Eye.bmp</iconset>
+   </property>
+   <property name="text">
+    <string>Просмотр камер наблюдения</string>
+   </property>
+  </action>
+  <action name="actioneditZone">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/layers_1.ico</normaloff>:/tree32/icons/layers_1.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Редактировать</string>
+   </property>
+   <property name="toolTip">
+    <string>Открыть редактор зоны безопасности</string>
+   </property>
+  </action>
+  <action name="actionAlarms">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/tree32/icons/Warning.ico</normaloff>:/tree32/icons/Warning.ico</iconset>
+   </property>
+   <property name="text">
+    <string>Тревоги и события</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
